@@ -9,7 +9,7 @@ class Kucing(Hewan):  # <-- Class Anak
         print(f"{self.nama} berkata: Meong!")   # <-- Method khusus anak
 
 # Membuat object
-kucing1 = Kucing("Milo")  # <-- Object
+kucing1 = Kucing("sinchan")  # <-- Object
 
 # Menggunakan method dan attribute
 kucing1.bergerak()
