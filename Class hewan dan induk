@@ -1,0 +1,16 @@
+class Hewan:
+    def __init__(self, nama):
+        self.nama = nama  # <-- Attribute
+    def bergerak(self):
+        print(f"{self.nama} sedang bergerak.")  # <-- Method
+
+class Kucing(Hewan):  # <-- Class Anak
+    def bersuara(self):
+        print(f"{self.nama} berkata: Meong!")   # <-- Method khusus anak
+
+# Membuat object
+kucing1 = Kucing("Milo")  # <-- Object
+
+# Menggunakan method dan attribute
+kucing1.bergerak()
+kucing1.bersuara()
